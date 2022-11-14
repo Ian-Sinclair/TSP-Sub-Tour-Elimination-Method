@@ -1,3 +1,4 @@
+from AMPL_Wrapper import *
 import requests
 import json
 import os
@@ -30,7 +31,7 @@ def citiesToDistanceMatrix(location : dict) -> list[list] :
     for city in location.keys() :
         DistanceMatrix[city] = {}
 
-    for i , name_1 in enumerate(location.keys()) :
+    for name_1 in location.keys() :
         coor_1 = location[ name_1 ]
         for name_2 in list(location.keys()) :
             coor_2 = location[name_2]
@@ -52,24 +53,29 @@ def citiesToDistanceMatrix(location : dict) -> list[list] :
 
     
 
-def writeToJSON(data) :
-    with open('DistanceMatrix.json', 'w', encoding='utf-8') as f:
+def writeToJSON(data, filename = 'DistanceMatrix.json') :
+    with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-def JsonToAMPL(filename) :
+def JsonToDict(filename) :
     with open(filename, 'r') as f :
         data = json.load(f)
     return data
 
 
 
-def Collect_data(cities = None, filename = 'DistanceMatrix') :
+def Collect_data(cities = None, filename = 'DistanceMatrix.json') :
     if cities == None :
         cites = [
             'Denver',
             'New York',
-            'Houston'
+            'Houston',
+            'Chicago',
+            'Dallas',
+            'Philadelphia',
+            'Phoenix',
+            'Miami'
             ]
     locations = {}
     for city in cites :
@@ -78,12 +84,14 @@ def Collect_data(cities = None, filename = 'DistanceMatrix') :
     #print(locations)
     DistanceMatrix = citiesToDistanceMatrix(locations)
 
-    writeToJSON(filename)
+    writeToJSON(DistanceMatrix,filename)
 
 
 if __name__ == "__main__":
     #Collect_data()
-    print(JsonToAMPL('DistanceMatrix.json'))
+    #print(JsonToDict('DistanceMatrix.json'))
+
+    makeDatFile('DistanceMatrix.json')
 
 
 

@@ -1,5 +1,5 @@
 ## Class Example
-set variables:= 1 2 3 4;
+set variables:= 1 2 3 4 ;
 param object:=
 1 15 
 2 10
