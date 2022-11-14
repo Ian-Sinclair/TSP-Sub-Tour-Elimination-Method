@@ -1,0 +1,16 @@
+reset;
+
+model TSP_MTZ.mod;
+data TSP_DATA.dat;
+
+display ORIG;
+display first(ORIG);
+
+option solver cplex;
+option cplex_options 'mipdisplay 2';
+
+solve;
+option omit_zero_rows 0;
+option display_lcol 10000;
+
+display X,t, tour_cost;
