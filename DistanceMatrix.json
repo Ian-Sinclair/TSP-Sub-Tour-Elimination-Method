@@ -1,0 +1,53 @@
+{
+    "Denver": {
+        "Denver": {
+            "duration": 0.0,
+            "origin": "Denver",
+            "destination": "Denver"
+        },
+        "New York": {
+            "duration": 1589.0833333333333,
+            "origin": "Denver",
+            "destination": "New York"
+        },
+        "Houston": {
+            "duration": 924.3333333333334,
+            "origin": "Denver",
+            "destination": "Houston"
+        }
+    },
+    "New York": {
+        "Denver": {
+            "duration": 1587.65,
+            "origin": "New York",
+            "destination": "Denver"
+        },
+        "New York": {
+            "duration": 0.0,
+            "origin": "New York",
+            "destination": "New York"
+        },
+        "Houston": {
+            "duration": 1446.25,
+            "origin": "New York",
+            "destination": "Houston"
+        }
+    },
+    "Houston": {
+        "Denver": {
+            "duration": 923.4333333333333,
+            "origin": "Houston",
+            "destination": "Denver"
+        },
+        "New York": {
+            "duration": 1457.3833333333334,
+            "origin": "Houston",
+            "destination": "New York"
+        },
+        "Houston": {
+            "duration": 0.0,
+            "origin": "Houston",
+            "destination": "Houston"
+        }
+    }
+}
