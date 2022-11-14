@@ -1,0 +1,13 @@
+reset;
+
+model TSP_traditional.mod;
+data TSP_traditional.dat;
+
+option solver cplex;
+option cplex_options 'mipdisplay 2';
+
+solve;
+option omit_zero_rows 0;
+option display_lcol 10000;
+
+display Y, total_Object;

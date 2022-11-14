@@ -57,25 +57,33 @@ def writeToJSON(data) :
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-
-
-cites = [
-    'Denver',
-    'New York',
-    'Houston'
-]
-
-locations = {}
-for city in cites :
-    locations[city] = LocationToCoordinate(city)
-
-#print(locations)
-DistanceMatrix = citiesToDistanceMatrix(locations)
-
-writeToJSON(DistanceMatrix)
+def JsonToAMPL(filename) :
+    with open(filename, 'r') as f :
+        data = json.load(f)
+    return data
 
 
 
+def Collect_data(cities = None, filename = 'DistanceMatrix') :
+    if cities == None :
+        cites = [
+            'Denver',
+            'New York',
+            'Houston'
+            ]
+    locations = {}
+    for city in cites :
+        locations[city] = LocationToCoordinate(city)
+
+    #print(locations)
+    DistanceMatrix = citiesToDistanceMatrix(locations)
+
+    writeToJSON(filename)
+
+
+if __name__ == "__main__":
+    #Collect_data()
+    print(JsonToAMPL('DistanceMatrix.json'))
 
 
 
