@@ -3,7 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 from geopy.geocoders import Nominatim
-from geopy import distance
+
 
 
 def LocationToCoordinate(loc1 : str ) -> tuple :
