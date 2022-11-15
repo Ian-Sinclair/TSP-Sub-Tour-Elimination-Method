@@ -1,0 +1,8 @@
+Denver 1
+New_York 3
+Houston 6
+Chicago 2
+Dallas 7
+Philadelphia 4
+Phoenix 8
+Miami 5

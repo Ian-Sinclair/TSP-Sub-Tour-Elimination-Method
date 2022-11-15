@@ -1,0 +1,13 @@
+Denver 1
+New_York 5
+Houston 9
+Dallas 10
+Philadelphia 6
+Phoenix 11
+Miami 8
+Cleveland 4
+San_Francisco 12
+Nashville 3
+Greensboro 7
+Lincoln 2
+Seattle 13

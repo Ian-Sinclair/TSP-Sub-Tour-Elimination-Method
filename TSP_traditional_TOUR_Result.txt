@@ -1,0 +1,13 @@
+Denver Lincoln 
+New_York Philadelphia 
+Houston Dallas 
+Dallas Houston 
+Philadelphia New_York 
+Phoenix Seattle 
+Miami Greensboro 
+Cleveland Nashville 
+San_Francisco Phoenix 
+Nashville Cleveland 
+Greensboro Miami 
+Lincoln Denver 
+Seattle San_Francisco 

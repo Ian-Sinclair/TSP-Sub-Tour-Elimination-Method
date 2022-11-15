@@ -1,11 +1,19 @@
 import json
 
 
+def test() :
+    print('hi')
+
 def readJsonData(filename) :
     with open(filename, 'r') as f :
         data = json.load(f)
     return data
 
+def AMPLT_Result_to_path(inputFile : str) :
+    city_info = []
+    with open(inputFile, 'r') as f:
+        city_info += f.readline()
+    print(city_info)
 
 def makeDatFile(data : dict, outfile='TSP_DATA.dat') :
     if type(data) == type(' ') :
@@ -29,7 +37,7 @@ def makeDatFile(data : dict, outfile='TSP_DATA.dat') :
     paramString += ';\n'
     datFileString += paramString
 
-    with open('TSP_DATA.dat', 'w', encoding='utf-8') as f:
+    with open(outfile, 'w', encoding='utf-8') as f:
         f.write(datFileString)
 
 

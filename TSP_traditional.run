@@ -11,3 +11,9 @@ option omit_zero_rows 0;
 option display_lcol 10000;
 
 display X, tour_cost;
+
+#print {i in ORIG, j in DEST} : if X[i,j]==1 :  i,j >'TSP_traditional_TOUR_Result.txt';
+
+for{i in ORIG, j in DEST: X[i,j] = 1 } {
+    printf "%s %s \n", i,j >'TSP_traditional_TOUR_Result.txt'; 
+}

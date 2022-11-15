@@ -43,12 +43,19 @@ def citiesToDistanceMatrix(location : dict) -> list[list] :
                             '&key=' + API_KEY
                             )
             response = requests.get(API_Request)
-
-            DistanceMatrix[name_1][name_2] = {
-                'duration' :  response.json()['rows'][0]['elements'][0]['duration']['value']/60,
-                'origin' : name_1,
-                'destination' : name_2
-            }
+            if response.json()['rows'][0]['elements'][0]['status'] != 'ZERO_RESULTS' :
+                DistanceMatrix[name_1][name_2] = {
+                    'duration' :  response.json()['rows'][0]['elements'][0]['duration']['value']/60,
+                    'origin' : name_1,
+                    'destination' : name_2
+                }
+            else :
+                print('Route Not Found:  ' + name_1 + ' --> ' + name_2)
+                DistanceMatrix[name_1][name_2] = {
+                    'duration' :  100000,
+                    'origin' : name_1,
+                    'destination' : name_2
+                }
     return DistanceMatrix
 
     
@@ -67,31 +74,36 @@ def JsonToDict(filename) :
 
 def Collect_data(cities = None, filename = 'DistanceMatrix.json') :
     if cities == None :
-        cites = [
+        cities = [
             'Denver',
             'New York',
             'Houston',
-            'Chicago',
             'Dallas',
             'Philadelphia',
             'Phoenix',
-            'Miami'
+            'Miami',
+            'Cleveland',
+            'San Francisco',
+            'Nashville',
+            'Greensboro',
+            'Lincoln'
             ]
     locations = {}
-    for city in cites :
+    for city in cities :
         locations[city] = LocationToCoordinate(city)
 
     #print(locations)
     DistanceMatrix = citiesToDistanceMatrix(locations)
 
     writeToJSON(DistanceMatrix,filename)
+    return DistanceMatrix
 
 
 if __name__ == "__main__":
-    #Collect_data()
-    #print(JsonToDict('DistanceMatrix.json'))
+    Collect_data()
+    print(JsonToDict('DistanceMatrix.json'))
 
-    makeDatFile('DistanceMatrix.json')
+    #makeDatFile('DistanceMatrix.json')
 
 
 
