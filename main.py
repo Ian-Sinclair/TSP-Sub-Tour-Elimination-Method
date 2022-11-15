@@ -1,3 +1,10 @@
+'''
+    Ian Sinclair
+    11/15/2022
+    This file includes API request resources to query coordinate information, 
+    and distance metric information for a list of cities.
+'''
+
 from AMPL_Wrapper import *
 import requests
 import json
@@ -79,14 +86,7 @@ def Collect_data(cities = None, filename = 'DistanceMatrix.json') :
             'New York',
             'Houston',
             'Dallas',
-            'Philadelphia',
-            'Phoenix',
-            'Miami',
-            'Cleveland',
-            'San Francisco',
-            'Nashville',
-            'Greensboro',
-            'Lincoln'
+            'Philadelphia'
             ]
     locations = {}
     for city in cities :
@@ -100,6 +100,7 @@ def Collect_data(cities = None, filename = 'DistanceMatrix.json') :
 
 
 if __name__ == "__main__":
+    print('Testing main.py functions --> LocationToCoordinate , citiesToDistanceMatrix , writeToJSON , JsonToDict')
     Collect_data()
     print(JsonToDict('DistanceMatrix.json'))
 

@@ -1,8 +1,17 @@
+'''
+    Ian Sinclair
+    11/15/2022
+    This is a wrapper around AMPL code.
+    In particular, this file includes methods to generate a .dat
+    AMPL file from a JSON file.
+    This method assume a special format for .dat files
+    that directly corresponds to the requirements of the
+    pre-written .mod AMPL files.
+    And so will encode .dat in the same way every time
+    except with different cities.
+'''
+
 import json
-
-
-def test() :
-    print('hi')
 
 def readJsonData(filename) :
     with open(filename, 'r') as f :
