@@ -6,22 +6,22 @@
             "destination": "Denver"
         },
         "New York": {
-            "duration": 1590.2833333333333,
+            "duration": 1590.65,
             "origin": "Denver",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 924.3666666666667,
+            "duration": 925.3166666666667,
             "origin": "Denver",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 723.5333333333333,
+            "duration": 724.4833333333333,
             "origin": "Denver",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 1554.6833333333334,
+            "duration": 1555.2166666666667,
             "origin": "Denver",
             "destination": "Philadelphia"
         },
@@ -31,27 +31,27 @@
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1815.2666666666667,
+            "duration": 1813.7666666666667,
             "origin": "Denver",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 1177.45,
+            "duration": 1177.8666666666666,
             "origin": "Denver",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 1119.35,
+            "duration": 1119.2833333333333,
             "origin": "Denver",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 1035.4833333333333,
+            "duration": 1033.9833333333333,
             "origin": "Denver",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 1439.4333333333334,
+            "duration": 1439.9,
             "origin": "Denver",
             "destination": "Greensboro"
         },
@@ -68,7 +68,7 @@
     },
     "New York": {
         "Denver": {
-            "duration": 1588.5,
+            "duration": 1588.75,
             "origin": "New York",
             "destination": "Denver"
         },
@@ -78,27 +78,27 @@
             "destination": "New York"
         },
         "Houston": {
-            "duration": 1447.3333333333333,
+            "duration": 1448.6666666666667,
             "origin": "New York",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 1384.35,
+            "duration": 1385.7166666666667,
             "origin": "New York",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 104.6,
+            "duration": 104.75,
             "origin": "New York",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 2204.85,
+            "duration": 2205.0833333333335,
             "origin": "New York",
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1128.9,
+            "duration": 1128.9333333333334,
             "origin": "New York",
             "destination": "Miami"
         },
@@ -108,39 +108,39 @@
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 2579.5333333333333,
+            "duration": 2579.733333333333,
             "origin": "New York",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 802.9333333333333,
+            "duration": 804.2666666666667,
             "origin": "New York",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 503.81666666666666,
+            "duration": 503.8666666666667,
             "origin": "New York",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 1178.0833333333333,
+            "duration": 1178.3333333333333,
             "origin": "New York",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 2532.8,
+            "duration": 2532.883333333333,
             "origin": "New York",
             "destination": "Seattle"
         }
     },
     "Houston": {
         "Denver": {
-            "duration": 923.45,
+            "duration": 935.5,
             "origin": "Houston",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 1459.2333333333333,
+            "duration": 1457.6833333333334,
             "origin": "Houston",
             "destination": "New York"
         },
@@ -155,37 +155,37 @@
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 1383.5666666666666,
+            "duration": 1382.5166666666667,
             "origin": "Houston",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 1157.5833333333333,
+            "duration": 1010.6333333333333,
             "origin": "Houston",
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1018.3333333333334,
+            "duration": 1020.7166666666667,
             "origin": "Houston",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 1172.8666666666666,
+            "duration": 1173.0166666666667,
             "origin": "Houston",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 1739.25,
+            "duration": 1689.5833333333333,
             "origin": "Houston",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 719.6833333333333,
+            "duration": 719.8333333333334,
             "origin": "Houston",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 989.5333333333333,
+            "duration": 989.5666666666667,
             "origin": "Houston",
             "destination": "Greensboro"
         },
@@ -202,12 +202,12 @@
     },
     "Dallas": {
         "Denver": {
-            "duration": 721.8,
+            "duration": 721.8166666666667,
             "origin": "Dallas",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 1386.1666666666667,
+            "duration": 1386.3166666666666,
             "origin": "Dallas",
             "destination": "New York"
         },
@@ -222,7 +222,7 @@
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 1310.5,
+            "duration": 1311.15,
             "origin": "Dallas",
             "destination": "Philadelphia"
         },
@@ -232,27 +232,27 @@
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1150.4333333333334,
+            "duration": 1150.45,
             "origin": "Dallas",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 1042.3833333333334,
+            "duration": 1042.5333333333333,
             "origin": "Dallas",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 1537.6166666666666,
+            "duration": 1537.5666666666666,
             "origin": "Dallas",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 589.2,
+            "duration": 589.35,
             "origin": "Dallas",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 980.6833333333333,
+            "duration": 980.7166666666667,
             "origin": "Dallas",
             "destination": "Greensboro"
         },
@@ -269,22 +269,22 @@
     },
     "Philadelphia": {
         "Denver": {
-            "duration": 1553.0833333333333,
+            "duration": 1553.3333333333333,
             "origin": "Philadelphia",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 102.81666666666666,
+            "duration": 110.13333333333334,
             "origin": "Philadelphia",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 1365.8,
+            "duration": 1365.95,
             "origin": "Philadelphia",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 1302.8166666666666,
+            "duration": 1303.0166666666667,
             "origin": "Philadelphia",
             "destination": "Dallas"
         },
@@ -294,12 +294,12 @@
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 2130.0833333333335,
+            "duration": 2130.3166666666666,
             "origin": "Philadelphia",
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1043.85,
+            "duration": 1043.8666666666666,
             "origin": "Philadelphia",
             "destination": "Miami"
         },
@@ -309,27 +309,27 @@
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 2544.1,
+            "duration": 2544.3,
             "origin": "Philadelphia",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 721.4,
+            "duration": 721.55,
             "origin": "Philadelphia",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 418.78333333333336,
+            "duration": 424.18333333333334,
             "origin": "Philadelphia",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 1142.65,
+            "duration": 1142.9,
             "origin": "Philadelphia",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 2497.366666666667,
+            "duration": 2497.45,
             "origin": "Philadelphia",
             "destination": "Seattle"
         }
@@ -341,7 +341,7 @@
             "destination": "Denver"
         },
         "New York": {
-            "duration": 2209.1666666666665,
+            "duration": 2209.25,
             "origin": "Phoenix",
             "destination": "New York"
         },
@@ -356,7 +356,7 @@
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 2133.15,
+            "duration": 2133.233333333333,
             "origin": "Phoenix",
             "destination": "Philadelphia"
         },
@@ -366,32 +366,32 @@
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 2027.8333333333333,
+            "duration": 2026.2666666666667,
             "origin": "Phoenix",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 1819.8833333333334,
+            "duration": 1819.9,
             "origin": "Phoenix",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 730.1833333333333,
+            "duration": 689.2,
             "origin": "Phoenix",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 1458.05,
+            "duration": 1458.1833333333334,
             "origin": "Phoenix",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 1872.2,
+            "duration": 1872.4,
             "origin": "Phoenix",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 1136.6,
+            "duration": 1136.6166666666666,
             "origin": "Phoenix",
             "destination": "Lincoln"
         },
@@ -403,32 +403,32 @@
     },
     "Miami": {
         "Denver": {
-            "duration": 1818.8333333333333,
+            "duration": 1813.3666666666666,
             "origin": "Miami",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 1123.25,
+            "duration": 1123.0666666666666,
             "origin": "Miami",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 1017.0,
+            "duration": 1010.5833333333334,
             "origin": "Miami",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 1150.15,
+            "duration": 1143.75,
             "origin": "Miami",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 1042.05,
+            "duration": 1035.8166666666666,
             "origin": "Miami",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 2021.9,
+            "duration": 2015.4833333333333,
             "origin": "Miami",
             "destination": "Phoenix"
         },
@@ -438,39 +438,39 @@
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 1093.5166666666667,
+            "duration": 1088.1666666666667,
             "origin": "Miami",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 2683.55,
+            "duration": 2678.15,
             "origin": "Miami",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 787.6,
+            "duration": 782.1333333333333,
             "origin": "Miami",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 699.6666666666666,
+            "duration": 696.1333333333333,
             "origin": "Miami",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 1474.9666666666667,
+            "duration": 1469.6333333333334,
             "origin": "Miami",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 2911.2833333333333,
+            "duration": 2904.9166666666665,
             "origin": "Miami",
             "destination": "Seattle"
         }
     },
     "Cleveland": {
         "Denver": {
-            "duration": 1179.0,
+            "duration": 1179.25,
             "origin": "Cleveland",
             "destination": "Denver"
         },
@@ -480,27 +480,27 @@
             "destination": "New York"
         },
         "Houston": {
-            "duration": 1171.3333333333333,
+            "duration": 1171.3666666666666,
             "origin": "Cleveland",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 1045.45,
+            "duration": 1045.4833333333333,
             "origin": "Cleveland",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 404.8833333333333,
+            "duration": 405.0,
             "origin": "Cleveland",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 1819.0666666666666,
+            "duration": 1819.3,
             "origin": "Cleveland",
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1094.8,
+            "duration": 1095.2333333333333,
             "origin": "Cleveland",
             "destination": "Miami"
         },
@@ -510,7 +510,7 @@
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 2170.0333333333333,
+            "duration": 2170.2166666666667,
             "origin": "Cleveland",
             "destination": "San Francisco"
         },
@@ -520,59 +520,59 @@
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 455.68333333333334,
+            "duration": 456.1,
             "origin": "Cleveland",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 768.5833333333334,
+            "duration": 768.8333333333334,
             "origin": "Cleveland",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 2123.2833333333333,
+            "duration": 2123.383333333333,
             "origin": "Cleveland",
             "destination": "Seattle"
         }
     },
     "San Francisco": {
         "Denver": {
-            "duration": 1126.8,
+            "duration": 1126.7333333333333,
             "origin": "San Francisco",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 2578.9166666666665,
+            "duration": 2579.2,
             "origin": "San Francisco",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 1685.5833333333333,
+            "duration": 1685.5666666666666,
             "origin": "San Francisco",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 1540.6,
+            "duration": 1540.5333333333333,
             "origin": "San Francisco",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 2543.3,
+            "duration": 2543.7,
             "origin": "San Francisco",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 686.0166666666667,
+            "duration": 686.0,
             "origin": "San Francisco",
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 2685.5333333333333,
+            "duration": 2685.483333333333,
             "origin": "San Francisco",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 2166.0666666666666,
+            "duration": 2166.35,
             "origin": "San Francisco",
             "destination": "Cleveland"
         },
@@ -582,64 +582,64 @@
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 2037.5666666666666,
+            "duration": 2037.6333333333334,
             "origin": "San Francisco",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 2451.7166666666667,
+            "duration": 2451.9,
             "origin": "San Francisco",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 1402.3,
+            "duration": 1402.2333333333333,
             "origin": "San Francisco",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 750.1166666666667,
+            "duration": 750.0666666666667,
             "origin": "San Francisco",
             "destination": "Seattle"
         }
     },
     "Nashville": {
         "Denver": {
-            "duration": 1038.9666666666667,
+            "duration": 1058.0333333333333,
             "origin": "Nashville",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 805.95,
+            "duration": 806.0,
             "origin": "Nashville",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 716.9666666666667,
+            "duration": 717.0166666666667,
             "origin": "Nashville",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 591.0833333333334,
+            "duration": 591.1333333333333,
             "origin": "Nashville",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 730.3,
+            "duration": 730.8333333333334,
             "origin": "Nashville",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 1458.0166666666667,
+            "duration": 1458.0833333333333,
             "origin": "Nashville",
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 788.1166666666667,
+            "duration": 795.7333333333333,
             "origin": "Nashville",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 465.65,
+            "duration": 467.25,
             "origin": "Nashville",
             "destination": "Cleveland"
         },
@@ -654,29 +654,29 @@
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 423.1333333333333,
+            "duration": 423.25,
             "origin": "Nashville",
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 696.15,
+            "duration": 714.3,
             "origin": "Nashville",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 2131.4,
+            "duration": 2131.4333333333334,
             "origin": "Nashville",
             "destination": "Seattle"
         }
     },
     "Greensboro": {
         "Denver": {
-            "duration": 1444.2666666666667,
+            "duration": 1445.3166666666666,
             "origin": "Greensboro",
             "destination": "Denver"
         },
         "New York": {
-            "duration": 498.5833333333333,
+            "duration": 498.68333333333334,
             "origin": "Greensboro",
             "destination": "New York"
         },
@@ -686,17 +686,17 @@
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 979.9333333333333,
+            "duration": 1003.55,
             "origin": "Greensboro",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 417.3833333333333,
+            "duration": 417.5833333333333,
             "origin": "Greensboro",
             "destination": "Philadelphia"
         },
         "Phoenix": {
-            "duration": 1870.4,
+            "duration": 1870.5,
             "origin": "Greensboro",
             "destination": "Phoenix"
         },
@@ -706,17 +706,17 @@
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 456.56666666666666,
+            "duration": 456.71666666666664,
             "origin": "Greensboro",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 2446.6666666666665,
+            "duration": 2446.7,
             "origin": "Greensboro",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 422.05,
+            "duration": 422.0833333333333,
             "origin": "Greensboro",
             "destination": "Nashville"
         },
@@ -726,12 +726,12 @@
             "destination": "Greensboro"
         },
         "Lincoln": {
-            "duration": 1101.45,
+            "duration": 1101.6,
             "origin": "Greensboro",
             "destination": "Lincoln"
         },
         "Seattle": {
-            "duration": 2480.35,
+            "duration": 2480.6833333333334,
             "origin": "Greensboro",
             "destination": "Seattle"
         }
@@ -743,12 +743,12 @@
             "destination": "Denver"
         },
         "New York": {
-            "duration": 1183.0166666666667,
+            "duration": 1183.45,
             "origin": "Lincoln",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 779.4,
+            "duration": 779.4166666666666,
             "origin": "Lincoln",
             "destination": "Houston"
         },
@@ -758,7 +758,7 @@
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 1147.4,
+            "duration": 1147.95,
             "origin": "Lincoln",
             "destination": "Philadelphia"
         },
@@ -768,17 +768,17 @@
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 1474.3333333333333,
+            "duration": 1474.35,
             "origin": "Lincoln",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 770.1666666666666,
+            "duration": 770.5333333333333,
             "origin": "Lincoln",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 1409.5666666666666,
+            "duration": 1409.5166666666667,
             "origin": "Lincoln",
             "destination": "San Francisco"
         },
@@ -788,7 +788,7 @@
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 1100.0166666666667,
+            "duration": 1100.4666666666667,
             "origin": "Lincoln",
             "destination": "Greensboro"
         },
@@ -810,22 +810,22 @@
             "destination": "Denver"
         },
         "New York": {
-            "duration": 2538.5,
+            "duration": 2538.6,
             "origin": "Seattle",
             "destination": "New York"
         },
         "Houston": {
-            "duration": 2075.55,
+            "duration": 2077.516666666667,
             "origin": "Seattle",
             "destination": "Houston"
         },
         "Dallas": {
-            "duration": 1874.7166666666667,
+            "duration": 1874.7333333333333,
             "origin": "Seattle",
             "destination": "Dallas"
         },
         "Philadelphia": {
-            "duration": 2502.883333333333,
+            "duration": 2503.1,
             "origin": "Seattle",
             "destination": "Philadelphia"
         },
@@ -835,27 +835,27 @@
             "destination": "Phoenix"
         },
         "Miami": {
-            "duration": 2919.4,
+            "duration": 2917.616666666667,
             "origin": "Seattle",
             "destination": "Miami"
         },
         "Cleveland": {
-            "duration": 2125.65,
+            "duration": 2125.75,
             "origin": "Seattle",
             "destination": "Cleveland"
         },
         "San Francisco": {
-            "duration": 749.5666666666667,
+            "duration": 749.5333333333333,
             "origin": "Seattle",
             "destination": "San Francisco"
         },
         "Nashville": {
-            "duration": 2139.616666666667,
+            "duration": 2133.2166666666667,
             "origin": "Seattle",
             "destination": "Nashville"
         },
         "Greensboro": {
-            "duration": 2479.766666666667,
+            "duration": 2480.4333333333334,
             "origin": "Seattle",
             "destination": "Greensboro"
         },
