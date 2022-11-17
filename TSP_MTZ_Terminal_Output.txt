@@ -1,0 +1,99 @@
+CPLEX 20.1.0.0: mipdisplay 2
+MIP Presolve modified 24 coefficients.
+Reduced MIP has 170 rows, 168 columns, and 732 nonzeros.
+Reduced MIP has 156 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Found incumbent of value 18158.800000 after 0.01 sec. (0.71 ticks)
+Probing time = 0.00 sec. (0.34 ticks)
+Cover probing fixed 0 vars, tightened 12 bounds.
+Detecting symmetries...
+MIP Presolve modified 24 coefficients.
+Reduced MIP has 170 rows, 168 columns, and 732 nonzeros.
+Reduced MIP has 156 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Probing time = 0.00 sec. (0.35 ticks)
+Cover probing fixed 0 vars, tightened 12 bounds.
+Clique table members: 92.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (0.38 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        18158.8000        0.0000           100.00%
+      0     0     6547.3287    14    18158.8000     6547.3287       24   63.94%
+      0     0     7444.0825    22    18158.8000      Cuts: 29       47   59.01%
+      0     0     7452.3508    23    18158.8000      Cuts: 10       57   58.96%
+      0     0     7459.4049    27    18158.8000      Cuts: 26       68   58.92%
+      0     0     7564.9287    20    18158.8000      Cuts: 19       75   58.34%
+      0     0     7693.7500    13    18158.8000      Cuts: 13       99   57.63%
+Detecting symmetries...
+      0     0     7704.3958    13    18158.8000      Cuts: 22      105   57.57%
+      0     0     7723.5000    12    18158.8000       Cuts: 6      109   57.47%
+      0     0     7734.3262    12    18158.8000   ZeroHalf: 3      117   57.41%
+      0     0     7734.5067    12    18158.8000       Cuts: 8      123   57.41%
+      0     0     7734.6333    12    18158.8000   ZeroHalf: 3      124   57.41%
+*     0+    0                         7990.8167     7734.6333             3.21%
+
+Clique cuts applied:  3
+Cover cuts applied:  2
+Mixed integer rounding cuts applied:  5
+Zero-half cuts applied:  11
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.16 sec. (17.18 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.16 sec. (17.18 ticks)
+CPLEX 20.1.0.0: optimal integer solution within mipgap or absmipgap; objective 7990.816667
+124 MIP simplex iterations
+0 branch-and-bound nodes
+absmipgap = 0.616667, relmipgap = 7.71719e-05
+X [*,*]
+# $2 = New_York
+# $5 = Philadelphia
+# $6 = Phoenix
+# $8 = Cleveland
+# $9 = San_Francisco
+# $10 = Nashville
+# $11 = Greensboro
+# $12 = Lincoln
+# $13 = Seattle
+:             Denver  $2 Houston Dallas  $5  $6 Miami  $8  $9 $10 $11 $12 $13 :=
+Denver           0     0     0      0     0   0    0    0   0   0   0   1   0
+New_York         0     0     0      0     1   0    0    0   0   0   0   0   0
+Houston          0     0     0      1     0   0    0    0   0   0   0   0   0
+Dallas           0     0     0      0     0   1    0    0   0   0   0   0   0
+Philadelphia     0     0     0      0     0   0    0    0   0   0   1   0   0
+Phoenix          0     0     0      0     0   0    0    0   1   0   0   0   0
+Miami            0     0     1      0     0   0    0    0   0   0   0   0   0
+Cleveland        0     1     0      0     0   0    0    0   0   0   0   0   0
+San_Francisco    0     0     0      0     0   0    0    0   0   0   0   0   1
+Nashville        0     0     0      0     0   0    0    1   0   0   0   0   0
+Greensboro       0     0     0      0     0   0    1    0   0   0   0   0   0
+Lincoln          0     0     0      0     0   0    0    0   0   1   0   0   0
+Seattle          1     0     0      0     0   0    0    0   0   0   0   0   0
+;
+
+t [*] :=
+ 1   1
+ 2   5
+ 3   9
+ 4  10
+ 5   6
+ 6  11
+ 7   8
+ 8   4
+ 9  12
+10   3
+11   7
+12   2
+13  13
+;
+
+tour_cost = 7990.82
+
