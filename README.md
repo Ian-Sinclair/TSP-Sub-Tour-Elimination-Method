@@ -74,9 +74,9 @@ $$
 $$
 
 >> Don't stay at one city:
-$$
+\begin{align*}
     X_{i,i} = 0, \quad\quad \forall i\in I
-$$
+\end{align*}
 ### Sub Tour Problems
 > Unfortunately, the local constraints above are not restrictive enough to eliminate all solutions that do not generate Hamiltonian circuits. In particular, it is still possible to get sub-tours that contribute to the final solution
 
