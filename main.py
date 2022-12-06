@@ -25,6 +25,7 @@ def LocationToCoordinate(loc1 : str ) -> tuple :
     return (coord.latitude , coord.longitude)
 
     
+#  API call to convert list of cities to a distance matrix dictionary. 
 def citiesToDistanceMatrix(location : dict) -> list[list] :
     '''
     string = 'https://api.distancematrix.ai/maps/api/distancematrix/json?origins=<origin_location_1|origin_location_2|...|origin_location_n> \
@@ -66,19 +67,21 @@ def citiesToDistanceMatrix(location : dict) -> list[list] :
     return DistanceMatrix
 
     
-
+#  Writes dictionary to JSON
 def writeToJSON(data, filename = 'DistanceMatrix.json') :
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
+
+#  Reads JSON to dictionary
 def JsonToDict(filename) :
     with open(filename, 'r') as f :
         data = json.load(f)
     return data
 
 
-
+#  Creates distance matrix for list of cities (distance from any city to any other city.)
 def Collect_data(cities = None, filename = 'DistanceMatrix.json') :
     if cities == None :
         cities = [

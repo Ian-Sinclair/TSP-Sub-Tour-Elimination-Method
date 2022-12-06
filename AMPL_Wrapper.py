@@ -13,17 +13,21 @@
 
 import json
 
+#  Reads Json data to dictionary
 def readJsonData(filename) :
     with open(filename, 'r') as f :
         data = json.load(f)
     return data
 
+#  Reads a file of city names (one name per line) returns list.
 def AMPLT_Result_to_path(inputFile : str) :
     city_info = []
     with open(inputFile, 'r') as f:
         city_info += f.readline()
     print(city_info)
 
+
+#  Makes a .dat file in the style of an AMPL file.
 def makeDatFile(data : dict, outfile='TSP_DATA.dat') :
     if type(data) == type(' ') :
         data = readJsonData(data)
