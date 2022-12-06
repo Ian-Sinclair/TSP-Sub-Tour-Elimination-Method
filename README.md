@@ -1,6 +1,7 @@
 # TSP-Sub-Tour-Elimination-Method
 Implementation of the traveling salesman problem and solution based on sub-tour elimination method. Generally, finding the shortest tour around n points using linear optimization techniques.
 
+<<<<<<< HEAD
 A detailed description of the project is in 'FileDriver.ipynb' notebook.
 
 
@@ -227,3 +228,5 @@ On a high level each section does the following:
 
     >section: 'Display result' >>uses the file generated from the AMPL solution to print the optimal tour, and display
                                 the tour on the US map.
+=======
+>>>>>>> 3d55143a0d3b51347e60621680f05432b1f2932d
