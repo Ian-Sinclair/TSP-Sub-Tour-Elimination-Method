@@ -5,7 +5,7 @@
     and distance metric information for a list of cities.
 '''
 
-from AMPL_Wrapper import *
+from src.AMPL_Wrapper import *
 import requests
 import json
 import os
